@@ -1,4 +1,6 @@
 ThingsIBought::Application.routes.draw do
+  resources :items
+
   resources :purchases
 
   # The priority is based upon order of creation:
